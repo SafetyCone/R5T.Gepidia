@@ -1,1 +1,0 @@
-﻿R5T.Gepidia.Local - An implementation of the IFileSystemOperator interface for local file-systems using System.IO.
