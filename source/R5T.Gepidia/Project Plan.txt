@@ -1,4 +1,7 @@
-R5T.Gepidia - A codenamed experiment in creating an IFileSystemOperations library.
+R5T.Gepidia - A codenamed experiment in creating a stringly-typed IFileSystemOperator library.
+
+This is not an IFileSystem library. Instead, it provides a class that operates on a file system. The file system is left implicit, and could be later reified as an in-memory instance, which is provided to an IFileSystemOperator implementation that takes in an in-memory file-system instance.
 
 Goals
 
+* Only stringly-typed. No file-system entry types, no file-system file entry or file-system directory entry types.
